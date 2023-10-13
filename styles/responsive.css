@@ -1,0 +1,61 @@
+@media screen and (min-width: 1280px) {
+    #wrapper {
+        width:1280px;
+        margin: 0 1%;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #wrapper {
+        max-width: 1024px;
+        margin: auto 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #wrapper {
+        max-width: 768px;
+        margin: auto 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #wrapper {
+        max-width: 100%;
+        margin: auto 0;
+
+        border: none;
+        box-sizing: unset;
+        box-shadow: none;
+    }
+
+    .review__wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .review__element {
+        width: 90%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .bcard__header img {
+        display: none;
+    }
+
+    .bcard__header_title {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bcard__header_title h1 {
+        margin-bottom: 2%;
+    }
+
+    address.bcard__element .bcard__content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
